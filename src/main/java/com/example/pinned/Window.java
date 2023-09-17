@@ -35,9 +35,7 @@ public class Window extends Stage {
         webEngine.load(text.getText());
 
         go.setOnAction(event -> {
-
             webEngine.load(text.getText());
-
         });
 
         text.setOnKeyPressed(ke -> {
